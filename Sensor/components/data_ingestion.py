@@ -1,9 +1,9 @@
 
-from sensor import utils
-from sensor.entity import config_entity
-from sensor.entity import artifact_entity
-from sensor.exception import SensorException
-from sensor.logger import logging
+from Sensor import utils
+from Sensor.entity import config_entity
+from Sensor.entity import artifact_entity
+from Sensor.exception import SensorException
+from Sensor.logger import logging
 import os,sys
 import pandas as pd 
 import numpy as np
